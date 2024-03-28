@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - step by step</title>
+    
+    <link rel="stylesheet" href="style/step1.css"><!-- 将所有(*) 边距改成0 -->
+    <link rel="stylesheet" href="style/step2.css"><!-- 将(container) 设置宽度与外边距 -->
+    <link rel="stylesheet" href="style/step3.css"><!-- 将(container-flex) 的display:flex 子元素头尾平均分布 -->
+    <link rel="stylesheet" href="style/step4.css"><!-- (.nav li) 改变导航栏列表项 元素水平分布 -->
+    <link rel="stylesheet" href="style/step5.css"><!-- (.nav-link) 将导航栏的链接改成黑色并且去除下划线 -->
+    <link rel="stylesheet" href="style/step6.css"><!-- (.site-title) 将导航栏的[个人网站]字体加粗 -->
+    <link rel="stylesheet" href="style/step7.css"><!-- (.nav) 更改导航栏的背景颜色并且加上下划线 -->
+    <link rel="stylesheet" href="style/step8.css"><!-- (.nav li:hover) 增加列表项悬停效果与链接悬停效果 -->
+    <link rel="stylesheet" href="style/step9.css"><!-- (main .bq) 设置main的上边框,设置bq的宽度以及外边框 -->
+    <link rel="stylesheet" href="style/step10.css"><!-- (.intro) 设置个人简介的最大宽度,调整外边框使得文字居中 -->
+    <link rel="stylesheet" href="style/step11.css"><!-- (.avatar) 设置头像的float,调整内外边框,设置宽度(单位为像素) -->
+    <link rel="stylesheet" href="style/step12.css"><!-- (name bio) 设置头像的底部外边距,将头像下方的文字颜色设置为灰色 -->
+    <link rel="stylesheet" href="style/step13.css"><!-- (small) 设置"我最喜欢的一句话" 字体大小,颜色,底部外间距,居中对齐-->
+    <link rel="stylesheet" href="style/step14.css"><!-- (blockquote) 改变引用文字区块的样式: 加左边框,改变字体样式,定位为相对定位,改变背景颜色 --> 
+    <link rel="stylesheet" href="style/step15.css"><!-- (blockquote::before   blockquote::after) 设置引用文字区块的引号-->
+    <link rel="stylesheet" href="style/step16.css"><!-- (blockquote span) 设置引用文字区块为块元素(使文字和作者分为两行) 设置边距,以及字体样式-->
+    <link rel="stylesheet" href="style/step17.css"><!-- (.nav ul:last-child)隐藏导航栏的内容 -->
+    <link rel="stylesheet" href="style/step18.css"><!-- (.container-flex ul:first-child .bq) 设置当分辨率小于一定范围应用的样式-->
+
+    <!-- 动态效果链接 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+<header class="nav">
+    <div class="container container-flex">
+        <ul>
+            <li><a href="#" class="nav-link site-title">个人网站</a></li>
+        </ul>
+        <ul>
+            <li><a href="../gxk/resume/resume.html" class="nav-link">个人简历</a></li>
+            <li><a href="allNote.html" class="nav-link">学习笔记</a></li>
+            <li><a href="#" class="nav-link">项目经验</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="intro">
+            <img class="avatar" src="./img/证件照 (2).jpg" alt="我的头像">
+            <h2 class="name animate__animated animate__flash ">郭炫坤</h2>
+            <p class="bio">一位优秀的社会主义接班人，性格平和开朗，待人热忱，善于与人沟通协调，亲和力强，具有进取精神和团队精神，有较强的动手能力。</p>
+        </div>
+
+        <div class="bq">
+            <p class="small">我最喜欢的一句话</p>
+            <blockquote>
+                且将新火试新茶,诗酒趁年华!
+                <span> - 宋·苏轼</span>
+            </blockquote>
+        </div>
+    </div>
+</main>
+
+</body>
+
+</html>
